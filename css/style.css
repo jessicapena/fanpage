@@ -4,6 +4,8 @@ html {
 
 body {
     height: 100%;
+    background-color: black;
+    color: white;
     
 }
 a {
@@ -12,8 +14,25 @@ a {
 
 .main {
     height: 100%;
+    background-image: url("https://www.ef.edu/~/media/universal/stage/5x2/destinations/us/los-angeles/los-angeles.jpg");
+    background-repeat: repeat-x;
 }
 .social-image{
     width: 30px;
     margin: 15px;
+}
+
+.rightPane {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLx9ZyORjUedF5ph3v2YkiO_CXYD9bNXu5JmEDplA3ZmlIe5GT");
+    background-repeat: repeat-x;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    display:flex;
+    justify-content: space-between;
 }
